@@ -6,7 +6,7 @@
   "scripts": {
     "build": "pm2 start pm2.config.js --env production",
     "build-pre": "pm2 start pm2.debug.config.js",
-    "dev": "babel-node app.js",
+    "dev": "node index.js",
   },
   "repository": "https://github.com/szxy00000/koa-quickstart.git",
   "author": "Nemo",
